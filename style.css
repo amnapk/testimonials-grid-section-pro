@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.container{
+  padding: 90px ;
+}
+.card h6{
+  position: absolute;
+  top: 30px;
+  left:90px;
+}
+.verification-note{
+  position: absolute;
+  top: 50px;
+  left:90px;
+}
+.review-1{
+  background-color:hsl(263, 55%, 52%);
+}
+.p-color{
+  color:hsl(214, 17%, 92%);
+}
+.review-2{
+  background-color: hsl(217, 19%, 35%);
+}
+.review-3{
+  background-color: hsl(0, 0%, 100%);
+}
+.review-4{
+  background-color:hsl(219, 29%, 14%) ;
+}
+.review-5{
+  background-color: hsl(0, 0%, 100%);
+}
+.card-text{
+  font-size:12px;
+}
+.review-5 .card-text{
+  width:92%;
+}
+.card-body{
+  padding:20px 20px;
+}
+.card-body .card-title{
+  font-size: 20px;
+}
+/* .review-5{
+  width: 116%;
+} */
+.quotation-img{
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+/* .card{
+  width: 115%;
+}
+.card-gap{
+  margin-right: 300px;
+} */
+ .card{
+  box-shadow: 0px 10px 15px rgba(0, 0, 0,0.3);
+ }
+
+@media (max-width:768px) {
+  .container{
+  padding: 20px ;
+}
+.review-5{
+  width: 100%;
+}
+
+}
